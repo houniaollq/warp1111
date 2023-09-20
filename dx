@@ -9,7 +9,12 @@ proxies:
   - {name: dxcf2.houniao.top, server: dxcf2.houniao.top, port: 80, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0af14, tls: false, tfo: false, servername: dxcf.houniaollq.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxcf.houniaollq.workers.dev}}, udp: true}
   - {name: dxcf3.houniao.top, server: dxcf3.houniao.top, port: 80, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0af14, tls: false, tfo: false, servername: dxcf.houniaollq.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxcf.houniaollq.workers.dev}}, udp: true}
   - {name: dxcf4.houniao.top, server: dxcf4.houniao.top, port: 80, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0af14, tls: false, tfo: false, servername: dxcf.houniaollq.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxcf.houniaollq.workers.dev}}, udp: true}
-  - {name: dxcf5.houniao.top, server: ltcf5.houniao.top, port: 80, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0af14, tls: false, tfo: false, servername: dxcf.houniaollq.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxcf.houniaollq.workers.dev}}, udp: true}
+  - {name: dxcf5.houniao.top, server: dxcf5.houniao.top, port: 80, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0af14, tls: false, tfo: false, servername: dxcf.houniaollq.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxcf.houniaollq.workers.dev}}, udp: true}
+  - {name: dxcf6.houniao.top, server: dxcf6.houniao.top, port: 80, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0af14, tls: false, tfo: false, servername: dxcf.houniaollq.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxcf.houniaollq.workers.dev}}, udp: true}
+  - {name: dxcf7.houniao.top, server: dxcf7.houniao.top, port: 80, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0af14, tls: false, tfo: false, servername: dxcf.houniaollq.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxcf.houniaollq.workers.dev}}, udp: true}
+  - {name: dxcf8.houniao.top, server: dxcf8.houniao.top, port: 80, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0af14, tls: false, tfo: false, servername: dxcf.houniaollq.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxcf.houniaollq.workers.dev}}, udp: true}
+  - {name: dxcf9.houniao.top, server: dxcf9.houniao.top, port: 80, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0af14, tls: false, tfo: false, servername: dxcf.houniaollq.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxcf.houniaollq.workers.dev}}, udp: true}
+  - {name: dxcf10.houniao.top, server: dxcf10.houniao.top, port: 80, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0af14, tls: false, tfo: false, servername: dxcf.houniaollq.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxcf.houniaollq.workers.dev}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -21,6 +26,11 @@ proxy-groups:
       - dxcf3.houniao.top
       - dxcf4.houniao.top
       - dxcf5.houniao.top
+      - dxcf6.houniao.top
+      - dxcf7.houniao.top
+      - dxcf8.houniao.top
+      - dxcf9.houniao.top
+      - dxcf10.houniao.top
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -31,6 +41,11 @@ proxy-groups:
       - dxcf3.houniao.top
       - dxcf4.houniao.top
       - dxcf5.houniao.top
+      - dxcf6.houniao.top
+      - dxcf7.houniao.top
+      - dxcf8.houniao.top
+      - dxcf9.houniao.top
+      - dxcf10.houniao.top
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -42,6 +57,11 @@ proxy-groups:
       - dxcf3.houniao.top
       - dxcf4.houniao.top
       - dxcf5.houniao.top
+      - dxcf6.houniao.top
+      - dxcf7.houniao.top
+      - dxcf8.houniao.top
+      - dxcf9.houniao.top
+      - dxcf10.houniao.top
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -65,6 +85,11 @@ proxy-groups:
       - dxcf3.houniao.top
       - dxcf4.houniao.top
       - dxcf5.houniao.top
+      - dxcf6.houniao.top
+      - dxcf7.houniao.top
+      - dxcf8.houniao.top
+      - dxcf9.houniao.top
+      - dxcf10.houniao.top
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -80,6 +105,11 @@ proxy-groups:
       - dxcf3.houniao.top
       - dxcf4.houniao.top
       - dxcf5.houniao.top
+      - dxcf6.houniao.top
+      - dxcf7.houniao.top
+      - dxcf8.houniao.top
+      - dxcf9.houniao.top
+      - dxcf10.houniao.top
   - name: 📲 电报信息
     type: select
     proxies:
@@ -90,6 +120,11 @@ proxy-groups:
       - dxcf3.houniao.top
       - dxcf4.houniao.top
       - dxcf5.houniao.top
+      - dxcf6.houniao.top
+      - dxcf7.houniao.top
+      - dxcf8.houniao.top
+      - dxcf9.houniao.top
+      - dxcf10.houniao.top
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -101,6 +136,11 @@ proxy-groups:
       - dxcf3.houniao.top
       - dxcf4.houniao.top
       - dxcf5.houniao.top
+      - dxcf6.houniao.top
+      - dxcf7.houniao.top
+      - dxcf8.houniao.top
+      - dxcf9.houniao.top
+      - dxcf10.houniao.top
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -121,6 +161,11 @@ proxy-groups:
       - dxcf3.houniao.top
       - dxcf4.houniao.top
       - dxcf5.houniao.top
+      - dxcf6.houniao.top
+      - dxcf7.houniao.top
+      - dxcf8.houniao.top
+      - dxcf9.houniao.top
+      - dxcf10.houniao.top
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
