@@ -6,7 +6,7 @@
 # 节点数量：10
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
-mixed-port: 7890
+mixed-port: 443
 allow-lan: true
 log-level: info
 external-controller: 0.0.0.0:9090
@@ -86,16 +86,16 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"cfvl.houniao.top_1","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf1.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":null,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
-  - {"name":"cfvl.houniao.top_2","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf2.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":null,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
-  - {"name":"cfvl.houniao.top_3","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf3.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":null,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
-  - {"name":"cfvl.houniao.top_4","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf4.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":null,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
-  - {"name":"cfvl.houniao.top_5","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf5.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":null,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
-  - {"name":"cfvl.houniao.top_6","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf6.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":null,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
-  - {"name":"cfvl.houniao.top_7","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf7.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":null,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
-  - {"name":"cfvl.houniao.top_8","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf8.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":null,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
-  - {"name":"cfvl.houniao.top_9","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf9.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":null,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
-  - {"name":"cfvl.houniao.top_10","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf10.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":null,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
+  - {"name":"cfvl.houniao.top_1","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf1.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":443,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
+  - {"name":"cfvl.houniao.top_2","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf2.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":443,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
+  - {"name":"cfvl.houniao.top_3","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf3.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":443,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
+  - {"name":"cfvl.houniao.top_4","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf4.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":443,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
+  - {"name":"cfvl.houniao.top_5","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf5.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":443,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
+  - {"name":"cfvl.houniao.top_6","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf6.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":443,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
+  - {"name":"cfvl.houniao.top_7","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf7.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":443,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
+  - {"name":"cfvl.houniao.top_8","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf8.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":443,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
+  - {"name":"cfvl.houniao.top_9","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf9.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":443,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
+  - {"name":"cfvl.houniao.top_10","type":"vless","server":"beaa69ac-b768-4746-9c80-c634e74c5f41@dxcf10.houniao.top?encryption=none&security=tls&type=ws&host=cfvl.houniao.top&sni=cfvl.houniao.top&fp=random&path=/?ed=2048#cfvl.houniao.top","port":443,"uuid":"beaa69ac-b768-4746-9c80-c634e74c5f41","tls":true,"servername":"cfvl.houniao.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfvl.houniao.top"}},"client-fingerprint":"random"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -1433,7 +1433,7 @@ rules:
   - DOMAIN-SUFFIX,dvb.pandora.xiaomi.com,🍃 应用净化
   - DOMAIN-SUFFIX,jellyfish.pandora.xiaomi.com,🍃 应用净化
   - DOMAIN-SUFFIX,migc.g.mi.com,🍃 应用净化
-  - DOMAIN-SUFFIX,migcreport.g.mi.com,🍃 应用净化
+  - DOMAIN-SUFFIX,migcreport.g443com,🍃 应用净化
   - DOMAIN-SUFFIX,notice.game.xiaomi.com,🍃 应用净化
   - DOMAIN-SUFFIX,ppurifier.game.xiaomi.com,🍃 应用净化
   - DOMAIN-SUFFIX,r.browser.miui.com,🍃 应用净化
@@ -1479,7 +1479,7 @@ rules:
   - DOMAIN-SUFFIX,monitor.qq.com,🍃 应用净化
   - DOMAIN-SUFFIX,pingma.qq.com,🍃 应用净化
   - DOMAIN-SUFFIX,pingtcss.qq.com,🍃 应用净化
-  - DOMAIN-SUFFIX,report.qq.com,🍃 应用净化
+  - DOMAIN-SUFFIX,report.q443m,🍃 应用净化
   - DOMAIN-SUFFIX,tajs.qq.com,🍃 应用净化
   - DOMAIN-SUFFIX,tcss.qq.com,🍃 应用净化
   - DOMAIN-SUFFIX,uu.qq.com,🍃 应用净化
@@ -1660,7 +1660,7 @@ rules:
   - DOMAIN-SUFFIX,afp.iqiyi.com,🍃 应用净化
   - DOMAIN-SUFFIX,c.uaa.iqiyi.com,🍃 应用净化
   - DOMAIN-SUFFIX,cloudpush.iqiyi.com,🍃 应用净化
-  - DOMAIN-SUFFIX,cm.passport.iqiyi.com,🍃 应用净化
+  - DOMAIN-SUFFIX,cm.passport.i443.com,🍃 应用净化
   - DOMAIN-SUFFIX,cupid.iqiyi.com,🍃 应用净化
   - DOMAIN-SUFFIX,emoticon.sns.iqiyi.com,🍃 应用净化
   - DOMAIN-SUFFIX,gamecenter.iqiyi.com,🍃 应用净化
@@ -1789,7 +1789,7 @@ rules:
   - DOMAIN-SUFFIX,p-log.ykimg.com,🍃 应用净化
   - DOMAIN-SUFFIX,p.l.ykimg.com,🍃 应用净化
   - DOMAIN-SUFFIX,p.l.youku.com,🍃 应用净化
-  - DOMAIN-SUFFIX,passport-log.youku.com,🍃 应用净化
+  - DOMAIN-SUFFIX,passport-l443ouku.com,🍃 应用净化
   - DOMAIN-SUFFIX,push.m.youku.com,🍃 应用净化
   - DOMAIN-SUFFIX,r.l.youku.com,🍃 应用净化
   - DOMAIN-SUFFIX,s.p.youku.com,🍃 应用净化
@@ -2248,7 +2248,7 @@ rules:
   - DOMAIN-SUFFIX,cws.conviva.com,🌍 国外媒体
   - DOMAIN-SUFFIX,d9.flashtalking.com,🌍 国外媒体
   - DOMAIN-SUFFIX,disney-plus.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,disney-portal443onetrust.com,🌍 国外媒体
   - DOMAIN-SUFFIX,disney.demdex.net,🌍 国外媒体
   - DOMAIN-SUFFIX,disney.my.sentry.io,🌍 国外媒体
   - DOMAIN-SUFFIX,disneyplus.bn5x.net,🌍 国外媒体
